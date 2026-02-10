@@ -9,10 +9,5 @@ int main() {
     cin >> A >> B;
     cin >> C >> D;
     
-    if(A>B){
-        cout << (C>D);
-    }
-    else{
-        cout << 0;
-    }
+    cout << ((A>B) && (C>D));
 }
